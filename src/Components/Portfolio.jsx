@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/laptop.jpg";
+import image from "../images/pencil.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -36,37 +36,45 @@ const projectList = [
       "I created a portfolio website using HTML, CSS, and JavaScript in a great way to showcase my skills, projects, and experiences.",
     url: "https://github.com/samir7-git/Files",
   },
-  {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
-  },
-  {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+  // {
+  //   title: "Web Development for Beginners",
+  //   description:
+  //     "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+  //   url: "https://github.com/microsoft/web-dev-for-beginners",
+  // },
+  // {
+  //   title: "My Resume Site",
+  //   description:
+  //     "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+  //   url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+  // },
+  // {
+  //   title: "GitHub Codespaces and github.dev",
+  //   description:
+  //     "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
+  //   url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+  // },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+      <img className="background" src={image} alt="" />
+      <h2 style={{ textAlign: "center", justifyContent: "center" }}>Portfolio</h2>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          paddingTop: "3rem",
+          justifyContent: "center",
+        }}
+      >
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img
+          {/* <img
             src={image}
             style={{ height: "90%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
-          />
+          /> */}
         </div>
         <div className="container">
           {projectList.map((project) => (
