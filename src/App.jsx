@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Samir Mujawar",
-  title: "Full stack Developer",
+  title: "Full Stack Developer",
   email: "samirmujawar000@gmail.com",
   gitHub: "samir7-git",
   instagram: "samiir_07_",
