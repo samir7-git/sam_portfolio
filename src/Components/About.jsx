@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/samantha.jpg";
+import image from "../images/office.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,20 +24,13 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-"A B-Tech Mechanical Engineering graduate with a solid foundation in Java, Python, C, and C++ with a strong passion for coding and software development.";
+  "I'm a B-Tech Mechanical Engineering graduate with a solid foundation in Java, Python, C, C++, HTML and, CSS with a strong passion for coding and software development.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const skillsList = [
-  "Web Developer",
-  "Java Developer",
-  "C, C++ Programmer",
-  "Python Programming",
-  "Mobile user interfaces",
-  "Graphic design",
-];
+const skillsList = ["Web Developer", "Java Developer", "C, C++ Programmer", "Python Programming"];
 
 /**
  * Use this to give more information about what you are passionate about,
@@ -45,7 +38,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "My passion for technology and continuous learning has driven me to complete courses in several programming languages, including C, C++, Java, and Python.";
 
 const About = () => {
   return (
