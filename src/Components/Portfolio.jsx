@@ -31,10 +31,10 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Portfolio Website: Frontend Development with HTML, CSS, JavaScript.",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "I created a portfolio website using HTML, CSS, and JavaScript in a great way to showcase my skills, projects, and experiences.",
+    url: "https://github.com/samir7-git/Files",
   },
   {
     title: "Web Development for Beginners",
